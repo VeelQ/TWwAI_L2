@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+ }
+ 
+ .background {
+    background-image: url("https://media.istockphoto.com/photos/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-picture-id1353553203?b=1&k=20&m=1353553203&s=170667a&w=0&h=QTyTGI9tWQluIlkmwW0s7Q4z7R_IT8egpzzHjW3cSas=");
+    height: 100%;
+ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .text {
+    height: 50vh;
+    background-color: #e8dbdb;
+    font-size: 36px;
+    padding: 15px;
+ }
+ 
+ 
+ nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 10px 5px 5px black;
+ }
+ 
+ 
+ nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: #0d0fbf;
+    transition: 0.5s;
+ }
+ 
+ nav ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+ }
+ 
+ footer {
+    text-align: center;
+ }
+ 
+ .other {
+    background-color: #6c92e5;
+    padding: 15px;
+ }
+ 
+ .kontakt {
+    padding: 15px;
+ }
+ 
